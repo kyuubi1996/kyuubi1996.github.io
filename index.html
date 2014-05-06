@@ -26,7 +26,20 @@
           <h2> Favorite Youtube Video </h2>
    <iframe width="560" height="315" src="//www.youtube.com/embed/T2RaehsIbkU" frameborder="0" allowfullscreen></iframe>
           
-      
-          
+          <div class="jquery">
+  <button class="btn btn-primary" data-popup-text="jQuery Popup Text Here">Click Me!</button>  
+</div>
+<div class="demo">
+<br> <br> <br>   
+<input id = "btnSubmit" type="submit" value="Release"/>
+<br> <br> <br>  
+</div>
+function btnClick()
+{
+    //    button click
+    $("#btnSubmit").button().click(function(){
+        alert("button");
+    });    
+}
     
     
