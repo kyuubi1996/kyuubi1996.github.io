@@ -13,7 +13,7 @@ def collatz(x):
 
     return length
 
-start = 59
+start = 121
 length = collatz(start)
 print "\ncollatz(%d) has %d items" % (start, length)
 
